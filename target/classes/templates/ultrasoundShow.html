@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>超声波</title>
+    </head>
+    <script th:src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/ultrasoundShow.js}"></script>
+    <body>
+        <div style="margin:0px auto; width:500px">
+            <table>
+                <tr>
+                    <td>
+                        <label for="id">超声波编号: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="id" name="id" th:value="${ultrasound.id}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="waveform">超声波数据: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="waveform" name="waveform" th:value="${ultrasound.waveform}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="equipment">设备名称: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="equipment" name="equipment" th:value="${ultrasound.equipment}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="constructionSite">试验站点: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="constructionSite" name="constructionSite" th:value="${ultrasound.constructionSite}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="section">区域: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="section" name="section"  th:value="${ultrasound.section}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="author">实验人员: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="author" name="author" th:value="${ultrasound.author}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="uploadDate">上传时间: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="uploadDate" name="uploadDate" th:value="${ultrasound.uploadDate}" readonly/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="foundDate">创建时间: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="foundDate" name="foundDate" th:value="${ultrasound.foundDate}" readonly/><br/>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td colspan="2">
+                        <button id="back">返回</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
