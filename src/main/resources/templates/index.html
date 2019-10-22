@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>表单</title>
+
+        <!--        引入bootstrap-->
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <script th:src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
     <script type="text/javascript" th:src="@{/js/index.js}"></script>
@@ -20,15 +25,15 @@
             <table width="100%" border="1">
 
                 <tr align="center">
-                    <td>超声波编号</td>
-                    <td>超声波数据</td>
-                    <td>设备名称</td>
-                    <td>试验站点</td>
-                    <td>区域</td>
-                    <td>实验人员</td>
-                    <td>上传时间</td>
-                    <td>创建时间</td>
-                    <td colspan="2">操作</td>
+                    <td><b>超声波编号</b></td>
+                    <td><b>超声波数据</b></td>
+                    <td><b>设备名称</b></td>
+                    <td><b>试验站点</b></td>
+                    <td><b>区域</b></td>
+                    <td><b>实验人员</b></td>
+                    <td><b>上传时间</b></td>
+                    <td><b>创建时间</b></td>
+                    <td colspan="2"><b>操作</b></td>
                 </tr>
                 <tr align="center" th:each="list: ${pages.list}">
                     <td>
