@@ -66,7 +66,7 @@ public class UltrasoundController {
     public String listUltrasound(@RequestParam(value = "id",defaultValue = "") String id,
                            Model model, @RequestParam(value = "start", defaultValue = "1") int start,
                            @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
-        PageHelper.startPage(start, size, "id asc");
+        PageHelper.startPage(start, size, "Experimenters_id asc");
         List<Ultrasound> ultrasoundList = ultrasoundMapper.getUltrasoundList(id);
         PageInfo<Ultrasound> page = new PageInfo<>(ultrasoundList);
         model.addAttribute("pages", page);

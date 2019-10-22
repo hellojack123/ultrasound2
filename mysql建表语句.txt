@@ -1,0 +1,24 @@
+
+create database ultrasound;
+use ultrasound;
+CREATE TABLE IF NOT EXISTS `table_ultrasound`(
+   `Experimenters_id` INT UNSIGNED AUTO_INCREMENT,
+   `wave_data` text NOT NULL,
+   `equipment` VARCHAR(200) NOT NULL,
+   `construction_site` VARCHAR(200) NOT NULL,
+   `section` VARCHAR(200) NOT NULL,
+   `Experimenters` VARCHAR(20) NOT NULL,
+   `upload_date` VARCHAR(50) NOT NULL,
+   `found_date` VARCHAR(50) NOT NULL,
+   PRIMARY KEY ( `Experimenters_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+删除数据表  ：DROP TABLE `table_ultrasound` ;
+查询数据表的具体类型：SHOW COLUMNS FROM `table_ultrasound` ;
+删除数据库：drop database `ultrasound` ;
+
+插入数据：INSERT INTO `table_ultrasound` VALUES ('1', '0.00 1.13 1.12 0.98', '1号设备', '同岩', '2km', '肖', '2019年9月4日', '2019年9月4日');
+
+
+
+查询表信息内容：select * from table_ultrasound;

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2716b320-0942-4ba5-9512-ab45169b1eca" name="Default Changelist" comment="" />
+    <list default="true" id="2716b320-0942-4ba5-9512-ab45169b1eca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tx/zhongxun/controller/UltrasoundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tx/zhongxun/controller/UltrasoundController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tx/zhongxun/mapper/UltrasoundMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tx/zhongxun/mapper/UltrasoundMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tx/zhongxun/controller/UltrasoundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tx/zhongxun/controller/UltrasoundController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tx/zhongxun/mapper/UltrasoundMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tx/zhongxun/mapper/UltrasoundMapper.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,7 @@
       <workItem from="1571622653639" duration="13087000" />
       <workItem from="1571642621361" duration="4104000" />
       <workItem from="1571647046055" duration="98000" />
+      <workItem from="1571725102193" duration="5157000" />
     </task>
     <servers />
   </component>
